@@ -1,0 +1,23 @@
+.section1, .section2, .section3, .section4 {
+    border: 1px solid;
+}
+
+
+ul {
+    list-style-type: none; 
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+a:link, a:visited, a:hover, a:active { 
+    text-decoration: none; 
+    color: black;
+}
