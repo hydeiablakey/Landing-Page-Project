@@ -1,23 +1,156 @@
-.section1, .section2, .section3, .section4 {
+:root {
+    --mauve: #d9a5b3; 
+    --darkblue: #1868ae; 
+    --lightblue: #c6d7eb;
+}
+
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+
+}
+
+ .section4 {
     border: 1px solid;
 }
 
+
+.section1 {
+    background-color: var(--mauve);
+    height: 30vh;
+
+
+}
+
+.heroSection {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.logo {
+
+    margin-right: 875px;
+    margin-left:260px;
+    font-size: 20px;
+    font-weight:bold;
+ 
+}
+
+.logo2 {
+    font-size: 30px;
+}
 
 ul {
     list-style-type: none; 
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 5px;
-    justify-content: flex-end;
+    gap: 10px;
     align-items: center;
 }
 
-.logo {
-    margin-right: auto;
+li {
+    font-size: 15px;
 }
 
 a:link, a:visited, a:hover, a:active { 
     text-decoration: none; 
     color: black;
 }
+
+.callToAction {
+    background-color:var(--darkblue);
+    color: white;
+    display:block;
+    width: 20%;
+    height:30px;
+    border: none; 
+    border-radius:8px;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+    margin: 20px;
+    height: 30vh;
+
+}
+
+
+
+.placeholderImg {
+    border: 2px solid black; 
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    
+}
+
+.placeholderTxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.section3 {
+    background-color: var(--lightblue);
+    padding: 10px;
+    height: 35vh;
+
+
+}
+
+.quoteTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.signatureTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 400px;
+    color: black; 
+    font-size: 20px;
+
+}
+
+.section4 {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle {
+    height: 100px; 
+    width: 700px;
+    border: 1px solid black;
+    border-radius:8px;
+    background-color:var(--lightblue);
+}
+
+.callText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.callToActionTitle {
+    color: black;
+
+}
+
