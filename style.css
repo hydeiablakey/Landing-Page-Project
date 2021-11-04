@@ -12,9 +12,6 @@ body, html {
 
 }
 
- .section4 {
-    border: 1px solid;
-}
 
 
 .section1 {
@@ -136,7 +133,6 @@ a:link, a:visited, a:hover, a:active {
 .rectangle {
     height: 100px; 
     width: 700px;
-    border: 1px solid black;
     border-radius:8px;
     background-color:var(--lightblue);
 }
